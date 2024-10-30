@@ -1,0 +1,38 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@hono/hono@^4.6.7": "4.6.7",
+    "npm:@doist/ui-extensions-core@*": "4.2.1"
+  },
+  "jsr": {
+    "@hono/hono@4.6.7": {
+      "integrity": "0f26a88942571a8eefea5ff7254691f6961fa2cc24fb777f8cdee282bb62c364"
+    }
+  },
+  "npm": {
+    "@doist/ui-extensions-core@4.2.1": {
+      "integrity": "sha512-kDVtgInvx+qhmnwcR38kXm6EhBzTmaC3HcKJvC5rbvNekHv/VAqKtI59Ys3xeajSnY5ov+D2m27LyDFdC4jBNA==",
+      "dependencies": [
+        "typescript-json-serializer"
+      ]
+    },
+    "reflect-metadata@0.1.14": {
+      "integrity": "sha512-ZhYeb6nRaXCfhnndflDK8qI6ZQ/YcWZCISRAWICW9XYqMUwjZM9Z0DveWX/ABN01oxSHwVxKQmxeYZSsm0jh5A=="
+    },
+    "tslib@2.8.0": {
+      "integrity": "sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA=="
+    },
+    "typescript-json-serializer@3.4.5": {
+      "integrity": "sha512-KWsDGa1vddY3alUIzE9oBo6AfVzVXQCCHm9ATF4oiGAoTHTTIV0IBGSRAu2uiJHrpPC/n7fxnnAagOhLQZyTcg==",
+      "dependencies": [
+        "reflect-metadata",
+        "tslib"
+      ]
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@hono/hono@^4.6.7"
+    ]
+  }
+}
